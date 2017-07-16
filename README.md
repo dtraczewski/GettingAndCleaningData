@@ -1,6 +1,6 @@
 # Getting and Cleaning Data - Course Project
 
-The R script, `run_analysis.R`, does the following:
+The file `run_analysis.R`, which is the R script, prepares cleaning of the data in following steps:
 
 1. Downloads the dataset and unzip it if it does not already be unzipped in the working directory
 2. Loads the activity and feature datasets
@@ -13,4 +13,4 @@ The R script, `run_analysis.R`, does the following:
 8. Creates a tidy dataset that contains the mean value of each
    variable for each subject and activity pair which is the purpose of this project.
 
-The final result can be observed in the file `FinalData.txt`.
+The final result can be observed in the textfile `FinalData.txt`.
