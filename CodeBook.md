@@ -1,14 +1,23 @@
 # Code Book
 
-This code book is a summary of the data variables in the file `FinalData.txt`.
-It contains a brief description of major characteristics.
+This code book is a summary of the variables included in the file `FinalData.txt`.
+It contains a brief description of major characteristics of data which can be further analysed.
 
 ## Identifiers
 
 * `subject` - The ID of the certain subject
-* `activity` - The type of activity performed when the particular measurements were performed
+* `activity` - The type of activity performed due to the particular calculations
 
-## Measurements
+## Activity Labels
+
+* `WALKING` (value equals to `1`): survey participant was walking during the measurement
+* `WALKING_UPSTAIRS` (value equals to `2`): survey participant was walking up a staircase during the measurement
+* `WALKING_DOWNSTAIRS` (value equals to `3`): survey participant was walking down a staircase during the measurement
+* `SITTING` (value equals to `4`): survey participant was sitting during the measurement
+* `STANDING` (value equals to `5`): survey participant was standing during the measurement
+* `LAYING` (value equals to `6`): survey participant was laying down during the measurement
+
+## Quantitative Variables
 
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`
@@ -89,12 +98,3 @@ It contains a brief description of major characteristics.
 * `fBodyBodyGyroJerkMagMean`
 * `fBodyBodyGyroJerkMagStd`
 * `fBodyBodyGyroJerkMagMeanFreq`
-
-## Activity Labels
-
-* `WALKING` (value `1`): subject was walking during the test
-* `WALKING_UPSTAIRS` (value `2`): subject was walking up a staircase during the test
-* `WALKING_DOWNSTAIRS` (value `3`): subject was walking down a staircase during the test
-* `SITTING` (value `4`): subject was sitting during the test
-* `STANDING` (value `5`): subject was standing during the test
-* `LAYING` (value `6`): subject was laying down during the test
