@@ -1,7 +1,7 @@
 # Getting and Cleaning Data - Course Project
 
 This is the course project for the Getting and Cleaning Data Coursera course.
-The R script, `DataAnalysis.R`, does the following:
+The R script, `run_analysis.R`, does the following:
 
 1. Download the dataset and unzpi it if it does not already be unzipped in the working directory
 2. Load the activity and feature data
