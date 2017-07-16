@@ -2,8 +2,8 @@
 
 The R script, `run_analysis.R`, does the following:
 
-1. Download the dataset and unzip it if it does not already be unzipped in the working directory
-2. Load the activity and feature datasets
+1. Downloads the dataset and unzip it if it does not already be unzipped in the working directory
+2. Loads the activity and feature datasets
 3. Loads both the training and test datasets and keeping only those variables which
    contain a mean or standard deviation of some characteristics
 4. Loads the activity and subject information for each dataset
